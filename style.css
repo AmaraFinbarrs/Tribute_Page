@@ -8,18 +8,17 @@
 }
 body {
   background: white;
-}
-
-p,
-h1,
-h2,
-h3,
-li {
   text-align: center;
   color: #2b2929;
-  /* font-family: 'Lato', sans-serif; */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Helvetica Neue", Arial, sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+    width: 100vw;
 }
 
 #main {
@@ -117,4 +116,18 @@ li {
   /* display: block; */
   margin-bottom: 16px;
   text-align: left;
+}
+
+@media screen and (max-width: 1098px){
+  #tribute-info{
+    width: auto;
+    padding-left: 30px;
+  }
+
+  .tribute-info-footer{
+    width: auto;
+    padding-left: 20px;
+    text-align: center;
+  }
+
 }
