@@ -122,6 +122,7 @@ li {
   #tribute-info{
     width: auto;
     padding-left: 30px;
+    padding-right: 5px;
   }
 
   .tribute-info-footer{
