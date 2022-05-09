@@ -130,4 +130,12 @@ li {
     text-align: center;
   }
 
+  #image{
+    margin: 5.7px;
+  }
+
+  #img-caption{
+    margin-left: -20px;
+  }
+
 }
